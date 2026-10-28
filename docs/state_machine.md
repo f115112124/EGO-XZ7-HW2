@@ -32,5 +32,3 @@ stateDiagram-v2
 到期時先計算 `pressed = current & ~stable & 0x1F`，再更新 `stable = current`。
 `pressed` 非 0 才通知主狀態機。放開也會更新穩定狀態，長按同一顆按鈕不會連續重設。
 等待防彈跳時，COUNT／PAUSE 仍持續執行。
-
-可編輯的狀態圖也位於 [PPT 第 41–42 頁](../guide/EGO_XZ7_HW2_Manual.pptx)。

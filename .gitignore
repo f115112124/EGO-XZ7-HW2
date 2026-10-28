@@ -33,6 +33,11 @@ Thumbs.db
 *.pfx
 *.p12
 
-# Release archives are uploaded separately
+# Portable archives stay outside this repository
 *.zip
 *.tar.gz
+
+# Local software-operation tutorials
+/guide/
+/README_另一台操作.md
+/START_HERE.txt

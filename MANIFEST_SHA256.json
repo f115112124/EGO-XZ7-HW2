@@ -4,8 +4,16 @@
     "sha256": "4461d5350dbdee65df1907cc94293b325df56573aa5c2d084d88cab5b2c18966"
   },
   ".gitignore": {
-    "bytes": 424,
-    "sha256": "ee3b4ee154cc5430706f2edd792fa9958e89c444635262e96d519ff5e8fe8fca"
+    "bytes": 519,
+    "sha256": "0ed3280c87cc9923c19edcea53e1c66970b402e9956a09dcfe4a2139a5234990"
+  },
+  "README.md": {
+    "bytes": 4126,
+    "sha256": "c8b33d94066d494e78da931572f5a4904438bbd425a9edc4f0bf52f17cfee80d"
+  },
+  "THIRD_PARTY_NOTICES.md": {
+    "bytes": 567,
+    "sha256": "bf407576435e9338d624555fde4d39621fd8715d539651de161f16a2e2c14136"
   },
   "constraints/ego_xz7.xdc": {
     "bytes": 1095,
@@ -28,8 +36,8 @@
     "sha256": "25257fb326bd099c3fa044c5f6d0238d2ab6348bf068afbcdb3448e9ed3f9fc5"
   },
   "docs/state_machine.md": {
-    "bytes": 1526,
-    "sha256": "b6974cc91e5d9a165991b61bf3d391093c62da9427853b227de11fe6afc80ee8"
+    "bytes": 1435,
+    "sha256": "f72ee29b0cc063dae2c3f0234291d29b7f31e7ee138b55e560288a0b64af122e"
   },
   "evidence/board_test.json": {
     "bytes": 781,
@@ -63,25 +71,13 @@
     "bytes": 7227,
     "sha256": "16f49621bcd92477c16e28cb24fcfa3c9973577145d2260e89270dd464c5ecc2"
   },
-  "guide/EGO_XZ7_HW2_Manual.pptx": {
-    "bytes": 1631582,
-    "sha256": "1a2a1ad74052d3c13b9b77c174ecb1e2c616f68707bbce8a1a48e35980c45857"
-  },
-  "README.md": {
-    "bytes": 7489,
-    "sha256": "74dad2db1b1df1784fd1a47d580ff4ff3692401acd115e6f94d41e11abab0d7a"
-  },
-  "README_另一台操作.md": {
-    "bytes": 3802,
-    "sha256": "f373bdd081554755eb36b01f0226ec3236530956f3a51a6323353d75776f1ad6"
+  "reference/SOURCES.md": {
+    "bytes": 1112,
+    "sha256": "9847a2a76c5324827c99779653bcd6291d7db688c055c29cc9055404527c8ab1"
   },
   "reference/ego_ps7_reference.tcl": {
     "bytes": 14757,
     "sha256": "b785fd63d535b2ddeda4461c65987a3658ff0ea671852a6f85f8089a2c09b929"
-  },
-  "reference/SOURCES.md": {
-    "bytes": 1112,
-    "sha256": "9847a2a76c5324827c99779653bcd6291d7db688c055c29cc9055404527c8ab1"
   },
   "scripts/build_hardware.tcl": {
     "bytes": 1148,
@@ -110,13 +106,5 @@
   "scripts/verify_package.py": {
     "bytes": 1631,
     "sha256": "ffbd4e42ebb449df16fae95ec11220cba27ddaf9b41ec80d31490c6c8601e027"
-  },
-  "START_HERE.txt": {
-    "bytes": 1020,
-    "sha256": "b3dcfb6fee94772b17d3446a253742c02ed3642eaae76d800d798ec4d29a087b"
-  },
-  "THIRD_PARTY_NOTICES.md": {
-    "bytes": 567,
-    "sha256": "bf407576435e9338d624555fde4d39621fd8715d539651de161f16a2e2c14136"
   }
 }
