@@ -1,0 +1,28 @@
+{
+  "device": "xc7z020clg484-1",
+  "vivado_sdk_version": "2018.3",
+  "setup_wns_ns": 13.008,
+  "setup_tns_ns": 0.0,
+  "hold_whs_ns": 0.03,
+  "drc_violations": 0,
+  "hdf_contains_matching_bitstream": true,
+  "sdk_platform_matches_final_hdf": true,
+  "aux_reset_active_high": true,
+  "external_reset_active_low": true,
+  "physical_board_programmed": true,
+  "physical_led_button_tested": true,
+  "artifacts": {
+    "export\\design_1_wrapper.bit": {
+      "bytes": 4045676,
+      "sha256": "d243ea37a7f509b6c1daafb9460b0843889cfa52a5162a4cba971c0e85dbbd52"
+    },
+    "export\\design_1_wrapper.hdf": {
+      "bytes": 406980,
+      "sha256": "28075674690459a88fb6ac1a1d79966868e26433b910c8020574bee0f6d329fd"
+    },
+    "sdk\\hw2_demo\\Debug\\hw2_demo.elf": {
+      "bytes": 285416,
+      "sha256": "12323aec3c3144fc32a9d30b48be74dee47ad1dcbafaa1e26542793df04c2fbd"
+    }
+  }
+}

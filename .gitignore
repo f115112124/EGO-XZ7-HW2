@@ -1,0 +1,38 @@
+# Generated Vivado / SDK workspaces
+/hardware/
+/sdk/
+/reports/
+/dist/
+/.Xil/
+**/.Xil/
+**/.metadata/
+**/.cache/
+**/__pycache__/
+**/node_modules/
+
+# Local tool output and editor state
+*.jou
+*.str
+*.log
+!evidence/*.log
+*.lck
+*.tmp
+*.bak
+*.swp
+*.pyc
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local credentials and machine configuration
+.env
+.env.*
+*.pem
+*.key
+*.pfx
+*.p12
+
+# Release archives are uploaded separately
+*.zip
+*.tar.gz

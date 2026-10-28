@@ -1,0 +1,21 @@
+{
+  "user_date": "2026-10-27",
+  "board": "EGO-XZ7",
+  "device": "xc7z020",
+  "uart_port": "COM3",
+  "baud": 115200,
+  "volatile_fpga_and_elf_download_succeeded": true,
+  "uart_counter_observed": true,
+  "button_interrupt_observed": true,
+  "user_observed_led": true,
+  "bit_sha256": "d243ea37a7f509b6c1daafb9460b0843889cfa52a5162a4cba971c0e85dbbd52",
+  "elf_sha256": "12323aec3c3144fc32a9d30b48be74dee47ad1dcbafaa1e26542793df04c2fbd",
+  "tested_button": "S6 (center of five PL buttons, left of A10 label)",
+  "observed_button_mask": "0x01",
+  "pause_and_resume_observed": true,
+  "uart_evidence": [
+    "BUTTON=0x01: LED=0, pause 2 s (IRQ events 1).",
+    "Resume: LED=1"
+  ],
+  "public_copy_note": "Cable serial removed from this public copy. Test observations are unchanged."
+}

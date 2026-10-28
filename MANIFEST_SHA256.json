@@ -1,0 +1,122 @@
+{
+  ".gitattributes": {
+    "bytes": 252,
+    "sha256": "4461d5350dbdee65df1907cc94293b325df56573aa5c2d084d88cab5b2c18966"
+  },
+  ".gitignore": {
+    "bytes": 424,
+    "sha256": "ee3b4ee154cc5430706f2edd792fa9958e89c444635262e96d519ff5e8fe8fca"
+  },
+  "constraints/ego_xz7.xdc": {
+    "bytes": 1095,
+    "sha256": "e83105e007d85297b5c961d1f34860e80d26915d91947502af2539b0fc3aebfd"
+  },
+  "demo/design_1_wrapper.bit": {
+    "bytes": 4045676,
+    "sha256": "d243ea37a7f509b6c1daafb9460b0843889cfa52a5162a4cba971c0e85dbbd52"
+  },
+  "demo/hw2_demo.elf": {
+    "bytes": 285416,
+    "sha256": "12323aec3c3144fc32a9d30b48be74dee47ad1dcbafaa1e26542793df04c2fbd"
+  },
+  "demo/ps7_init.tcl": {
+    "bytes": 32266,
+    "sha256": "26087cff3025a25623046661969c6d69e23b654e92a9c75adb7bc59ab96448a5"
+  },
+  "docs/EGO_XZ7_HW2_Report.docx": {
+    "bytes": 896200,
+    "sha256": "25257fb326bd099c3fa044c5f6d0238d2ab6348bf068afbcdb3448e9ed3f9fc5"
+  },
+  "docs/state_machine.md": {
+    "bytes": 1526,
+    "sha256": "b6974cc91e5d9a165991b61bf3d391093c62da9427853b227de11fe6afc80ee8"
+  },
+  "evidence/board_test.json": {
+    "bytes": 781,
+    "sha256": "53be82cdb5e29039c17cdabebb8ad04369ce625df54406bd03c96c29a32cfe2b"
+  },
+  "evidence/drc.rpt": {
+    "bytes": 1148,
+    "sha256": "c47f845a153af0e7b35ff8a22e4320bc01d2f6d4296ce6d812cb2093fd975058"
+  },
+  "evidence/timing_summary.rpt": {
+    "bytes": 22395,
+    "sha256": "cdee324c3525432ae012b806527564f0931e69ca1ba2709be53f50f73f0dfa46"
+  },
+  "evidence/uart_button_test.log": {
+    "bytes": 1788,
+    "sha256": "ba5272cc3aee36812b65a74196491cbfadeae9c0ac190b373f6345a99c5b1d01"
+  },
+  "evidence/verification.json": {
+    "bytes": 874,
+    "sha256": "fb9b744c655af4361428c5fbd41d5875723d0e65c38101049fe2bdeb72c0adb8"
+  },
+  "export/design_1_wrapper.bit": {
+    "bytes": 4045676,
+    "sha256": "d243ea37a7f509b6c1daafb9460b0843889cfa52a5162a4cba971c0e85dbbd52"
+  },
+  "export/design_1_wrapper.hdf": {
+    "bytes": 406980,
+    "sha256": "28075674690459a88fb6ac1a1d79966868e26433b910c8020574bee0f6d329fd"
+  },
+  "firmware/hw2_demo/main.c": {
+    "bytes": 7227,
+    "sha256": "16f49621bcd92477c16e28cb24fcfa3c9973577145d2260e89270dd464c5ecc2"
+  },
+  "guide/EGO_XZ7_HW2_Manual.pptx": {
+    "bytes": 1631582,
+    "sha256": "1a2a1ad74052d3c13b9b77c174ecb1e2c616f68707bbce8a1a48e35980c45857"
+  },
+  "README.md": {
+    "bytes": 7489,
+    "sha256": "74dad2db1b1df1784fd1a47d580ff4ff3692401acd115e6f94d41e11abab0d7a"
+  },
+  "README_另一台操作.md": {
+    "bytes": 3802,
+    "sha256": "f373bdd081554755eb36b01f0226ec3236530956f3a51a6323353d75776f1ad6"
+  },
+  "reference/ego_ps7_reference.tcl": {
+    "bytes": 14757,
+    "sha256": "b785fd63d535b2ddeda4461c65987a3658ff0ea671852a6f85f8089a2c09b929"
+  },
+  "reference/SOURCES.md": {
+    "bytes": 1112,
+    "sha256": "9847a2a76c5324827c99779653bcd6291d7db688c055c29cc9055404527c8ab1"
+  },
+  "scripts/build_hardware.tcl": {
+    "bytes": 1148,
+    "sha256": "9a9b7e986080ba7ff3877db7b2c9b4db8af8467218b1b77cf5654074be09e9bf"
+  },
+  "scripts/check_connection.tcl": {
+    "bytes": 499,
+    "sha256": "bfa0f80997e29c7735158d38e0626b9d7c6ee5ce2dd4f2c24d334a03e578ee8f"
+  },
+  "scripts/create_hardware_project.tcl": {
+    "bytes": 5536,
+    "sha256": "bad964c08d649462b8c02dea645b8d76e025d9315035b45bda5a3c05db9a5821"
+  },
+  "scripts/create_sdk_workspace.tcl": {
+    "bytes": 1972,
+    "sha256": "50abab409369244d44e953f3355c2d4916dfba2d40a1b75626235645e40f2c62"
+  },
+  "scripts/export_hardware.tcl": {
+    "bytes": 1085,
+    "sha256": "44a7157c61e168a5a1a85d5f8f3ddea90acc6a8b19d14b55d117b66a3fb42cf8"
+  },
+  "scripts/run_prebuilt_demo.tcl": {
+    "bytes": 1468,
+    "sha256": "d226229f5e3893fcf86bf43addc8c861f212dbed4f8a334eb5eeb81d927c0b06"
+  },
+  "scripts/verify_package.py": {
+    "bytes": 1631,
+    "sha256": "ffbd4e42ebb449df16fae95ec11220cba27ddaf9b41ec80d31490c6c8601e027"
+  },
+  "START_HERE.txt": {
+    "bytes": 1020,
+    "sha256": "b3dcfb6fee94772b17d3446a253742c02ed3642eaae76d800d798ec4d29a087b"
+  },
+  "THIRD_PARTY_NOTICES.md": {
+    "bytes": 567,
+    "sha256": "bf407576435e9338d624555fde4d39621fd8715d539651de161f16a2e2c14136"
+  }
+}
