@@ -1,19 +1,19 @@
 {
   ".gitattributes": {
-    "bytes": 407,
-    "sha256": "58d5b03f0691d4ebec27226cdedf662a69143d9425e9065c797f90fe7b2a86c6"
+    "bytes": 252,
+    "sha256": "4461d5350dbdee65df1907cc94293b325df56573aa5c2d084d88cab5b2c18966"
   },
   ".gitignore": {
-    "bytes": 617,
-    "sha256": "ab2650dbd04ae726d271a992f4f26edea8382611a005d49d4bdf19758e8ee637"
+    "bytes": 519,
+    "sha256": "0ed3280c87cc9923c19edcea53e1c66970b402e9956a09dcfe4a2139a5234990"
   },
   "README.md": {
-    "bytes": 3704,
-    "sha256": "dff772d05cda429a5a4732b377caf71b975692a2d34589cd25be6067273bcde1"
+    "bytes": 4126,
+    "sha256": "c8b33d94066d494e78da931572f5a4904438bbd425a9edc4f0bf52f17cfee80d"
   },
   "THIRD_PARTY_NOTICES.md": {
-    "bytes": 788,
-    "sha256": "87e5c9a607a040e42e53261fef2d46df66fad390407700e8107fb9f3c7a92dad"
+    "bytes": 567,
+    "sha256": "bf407576435e9338d624555fde4d39621fd8715d539651de161f16a2e2c14136"
   },
   "constraints/ego_xz7.xdc": {
     "bytes": 1095,
@@ -31,29 +31,9 @@
     "bytes": 32266,
     "sha256": "26087cff3025a25623046661969c6d69e23b654e92a9c75adb7bc59ab96448a5"
   },
-  "demo_ip/BUILD_STATUS.md": {
-    "bytes": 303,
-    "sha256": "07c4f48099c3fe4567a0200fc51e228030affca4ae9a3232effa468044ed1100"
-  },
-  "demo_ip/design_1_wrapper.bit": {
-    "bytes": 4045676,
-    "sha256": "4c8c83e28ab0ab6bc0fcbc84d55535af8e22e7f6538cd1b6e9fb0995724313bd"
-  },
-  "demo_ip/hw2_demo.elf": {
-    "bytes": 261596,
-    "sha256": "35b5e0f43d3a5d93f42ab506018c8129b2f13647a06a9087fa99a9b20df961d3"
-  },
-  "demo_ip/ps7_init.tcl": {
-    "bytes": 33041,
-    "sha256": "636aedf19a17ab66d971eb84f5e8571147b2d13d7cbefccb7edd55ec6fd5d768"
-  },
   "docs/EGO_XZ7_HW2_Report.docx": {
     "bytes": 896200,
     "sha256": "25257fb326bd099c3fa044c5f6d0238d2ab6348bf068afbcdb3448e9ed3f9fc5"
-  },
-  "docs/GPIO_IP_DESIGN.md": {
-    "bytes": 3348,
-    "sha256": "bf8029fbbb322db9330bda999600ae386ff484ac4af408a6c7b3e6e2ef8e5a28"
   },
   "docs/state_machine.md": {
     "bytes": 1435,
@@ -66,50 +46,6 @@
   "evidence/drc.rpt": {
     "bytes": 1148,
     "sha256": "c47f845a153af0e7b35ff8a22e4320bc01d2f6d4296ce6d812cb2093fd975058"
-  },
-  "evidence/ip_revision/catalog_verification.json": {
-    "bytes": 1667,
-    "sha256": "cdd73c26117dc6f472ccb97c210464b0e6f6c84637aeecf2c56843897b3743a3"
-  },
-  "evidence/ip_revision/catalog_verify.log": {
-    "bytes": 3246,
-    "sha256": "204c1fb79b76c675c192ed2d874a27db4a2f84193de37ce924e29b6be3f5ef67"
-  },
-  "evidence/ip_revision/drc.rpt": {
-    "bytes": 1132,
-    "sha256": "74a23b5000b4a0b0ad01c6d2fc4851b3bff425eeab7f39ed04175635130b9fb5"
-  },
-  "evidence/ip_revision/hdf_inspection.json": {
-    "bytes": 1519,
-    "sha256": "88ddd5865d12e20e26461cfdf1333321bde5affacf2239363bb11ec198bd27ac"
-  },
-  "evidence/ip_revision/io.rpt": {
-    "bytes": 151030,
-    "sha256": "ca29bbd57a7822eb374d18251517e8255ba4e3cdcf8e863ebb56ee97607bea71"
-  },
-  "evidence/ip_revision/ip_build_verification.json": {
-    "bytes": 1394,
-    "sha256": "0197ab8ce70ca60b9786e724aa93f900156837016931d4dbceb17bdde395b9ac"
-  },
-  "evidence/ip_revision/simulation.log": {
-    "bytes": 25511,
-    "sha256": "c2ec0b2d5ccd3109c473ec8057052709f6dfc9781284ac0650406cce5df27ec3"
-  },
-  "evidence/ip_revision/simulation_checks.log": {
-    "bytes": 8417,
-    "sha256": "90a6850483a56e77e5865fb264672d231c50776269686c2bfecb648946836221"
-  },
-  "evidence/ip_revision/simulation_result.json": {
-    "bytes": 1823,
-    "sha256": "142a1349b7f2e36c8464a0bfda89a954cdff16787540fd92ce5880ab398adfe6"
-  },
-  "evidence/ip_revision/timing_summary.rpt": {
-    "bytes": 21760,
-    "sha256": "4857406c8fa3537b4bde9e0a5ff72c3077b0892e5cd285f7d9b863a416686d20"
-  },
-  "evidence/ip_revision/utilization.rpt": {
-    "bytes": 9636,
-    "sha256": "fa1367fc9d7fa3e8376eefdf6bfab47c5d085bc03aa21b398a686e00980817e9"
   },
   "evidence/timing_summary.rpt": {
     "bytes": 22395,
@@ -125,63 +61,15 @@
   },
   "export/design_1_wrapper.bit": {
     "bytes": 4045676,
-    "sha256": "4c8c83e28ab0ab6bc0fcbc84d55535af8e22e7f6538cd1b6e9fb0995724313bd"
+    "sha256": "d243ea37a7f509b6c1daafb9460b0843889cfa52a5162a4cba971c0e85dbbd52"
   },
   "export/design_1_wrapper.hdf": {
-    "bytes": 399479,
-    "sha256": "026f395d19d63f40db5774555aa433f04bc87d0bb86eff423aa6c0373ef5ace0"
-  },
-  "firmware/hw2_demo/hw2_gpio.h": {
-    "bytes": 2145,
-    "sha256": "13db1d00906c601c6581395a0561304bb202aeedc6ab7f13100ea51e1c5a4700"
+    "bytes": 406980,
+    "sha256": "28075674690459a88fb6ac1a1d79966868e26433b910c8020574bee0f6d329fd"
   },
   "firmware/hw2_demo/main.c": {
-    "bytes": 5700,
-    "sha256": "d801bdb144ea1f68ce2e1d7e538df0a7b401328fd38a4ea6dcf95c667dba753e"
-  },
-  "ip_repo/hw2_gpio_ip_1_0/component.xml": {
-    "bytes": 42614,
-    "sha256": "5bdd19b9576bda457db1996bf395f4846dd8c594284704a127ac8540cf9b5036"
-  },
-  "ip_repo/hw2_gpio_ip_1_0/sim/gpio_subsystem.protoinst": {
-    "bytes": 15663,
-    "sha256": "bef6b831a5ab12c19c0b0b881f6ed48390d6dc7aebbb6b164d7f7537c9527bdf"
-  },
-  "ip_repo/hw2_gpio_ip_1_0/sim/gpio_subsystem.v": {
-    "bytes": 47457,
-    "sha256": "4de86aa3f8e2e353732c955e2a4e6f20a36618a1539d6c0080aee05f7f8632a3"
-  },
-  "ip_repo/hw2_gpio_ip_1_0/src/gpio_subsystem.v": {
-    "bytes": 47457,
-    "sha256": "4de86aa3f8e2e353732c955e2a4e6f20a36618a1539d6c0080aee05f7f8632a3"
-  },
-  "ip_repo/hw2_gpio_ip_1_0/src/gpio_subsystem_button_gpio_0/gpio_subsystem_button_gpio_0.xci": {
-    "bytes": 17054,
-    "sha256": "cd8f0a38ad7b7801f821b420240e1676347ba925470b9fbfb3680a9d72f59054"
-  },
-  "ip_repo/hw2_gpio_ip_1_0/src/gpio_subsystem_led_gpio_0/gpio_subsystem_led_gpio_0.xci": {
-    "bytes": 17048,
-    "sha256": "8fa158204fcba0eef196a93474039a2a3ced5c7b7ae4586471d5ed4711f8a753"
-  },
-  "ip_repo/hw2_gpio_ip_1_0/src/gpio_subsystem_ooc.xdc": {
-    "bytes": 614,
-    "sha256": "d5ccc842a379450b4884ef62a6e2021cf9c9f378784319be12107f46f618be4b"
-  },
-  "ip_repo/hw2_gpio_ip_1_0/src/gpio_subsystem_wrapper.v": {
-    "bytes": 3108,
-    "sha256": "cc5de2e985e8f4364c2963492e7c9462755d10712c0a1e677b81c170afdaa1ab"
-  },
-  "ip_repo/hw2_gpio_ip_1_0/src/gpio_subsystem_xbar_0/gpio_subsystem_xbar_0.xci": {
-    "bytes": 393156,
-    "sha256": "c7ca62d8a2a6dfcf2fe7d1e6b7f033f3ad8fec79874c905bd5ac7bcfe335a0d1"
-  },
-  "ip_repo/hw2_gpio_ip_1_0/xgui/gpio_subsystem_wrapper_v1_0.tcl": {
-    "bytes": 205,
-    "sha256": "e0725b60cdc4cd625ee059e557ee3f5569fcd085edf601849e69e4d438080d96"
-  },
-  "ip_repo/hw2_gpio_ip_1_0/xgui/hw2_gpio_ip_v1_0.tcl": {
-    "bytes": 205,
-    "sha256": "e0725b60cdc4cd625ee059e557ee3f5569fcd085edf601849e69e4d438080d96"
+    "bytes": 7227,
+    "sha256": "16f49621bcd92477c16e28cb24fcfa3c9973577145d2260e89270dd464c5ecc2"
   },
   "reference/SOURCES.md": {
     "bytes": 1112,
@@ -191,60 +79,32 @@
     "bytes": 14757,
     "sha256": "b785fd63d535b2ddeda4461c65987a3658ff0ea671852a6f85f8089a2c09b929"
   },
-  "reference/gpio_subsystem_recreate.tcl": {
-    "bytes": 11016,
-    "sha256": "0c61fb4e8c03ba7c31e50d918bb03e88b56125cf353797d83f67b79e49e81776"
-  },
   "scripts/build_hardware.tcl": {
-    "bytes": 1151,
-    "sha256": "79b17e49b4a3d2decb2867e5a644e9ddd5ff70e1f51b6f3a90e8ffa9b40d65d4"
+    "bytes": 1148,
+    "sha256": "9a9b7e986080ba7ff3877db7b2c9b4db8af8467218b1b77cf5654074be09e9bf"
   },
   "scripts/check_connection.tcl": {
     "bytes": 499,
     "sha256": "bfa0f80997e29c7735158d38e0626b9d7c6ee5ce2dd4f2c24d334a03e578ee8f"
   },
   "scripts/create_hardware_project.tcl": {
-    "bytes": 5358,
-    "sha256": "f09456be979afb72d1c37f03566cd0ff3eb04548ecacb0369ade775e90200408"
+    "bytes": 5536,
+    "sha256": "bad964c08d649462b8c02dea645b8d76e025d9315035b45bda5a3c05db9a5821"
   },
   "scripts/create_sdk_workspace.tcl": {
-    "bytes": 2503,
-    "sha256": "2f345cca358e8e7119fa3088669c77e05a34aed728e6733d7963d1a353b06e9e"
+    "bytes": 1972,
+    "sha256": "50abab409369244d44e953f3355c2d4916dfba2d40a1b75626235645e40f2c62"
   },
   "scripts/export_hardware.tcl": {
-    "bytes": 1021,
-    "sha256": "18fa42b8eb379fda68ad8682051642795f035ea12951fe49c2899c4129a3c439"
-  },
-  "scripts/inspect_hdf.tcl": {
-    "bytes": 1451,
-    "sha256": "1b9b1b339eeda87e5424b9981f99ad5cbce0168689ac23467a2bec2d9e995afd"
-  },
-  "scripts/package_gpio_ip.tcl": {
-    "bytes": 4965,
-    "sha256": "8c915b610b6081c5d497c406ff53764e7acd259a2f758823125e13f2d984c7e1"
-  },
-  "scripts/run_ip_demo.tcl": {
-    "bytes": 1331,
-    "sha256": "9b5dd0022c9a1ff124b9ed16c81653d0052b1fafd962c24c44d0a9b8862b3a89"
+    "bytes": 1085,
+    "sha256": "44a7157c61e168a5a1a85d5f8f3ddea90acc6a8b19d14b55d117b66a3fb42cf8"
   },
   "scripts/run_prebuilt_demo.tcl": {
     "bytes": 1468,
     "sha256": "d226229f5e3893fcf86bf43addc8c861f212dbed4f8a334eb5eeb81d927c0b06"
   },
-  "scripts/verify_ip_package.py": {
-    "bytes": 2112,
-    "sha256": "0e7df0cc4c2b7870bd433547d0df3f9e15d2f90508275bbc84d8199bae5c2b69"
-  },
   "scripts/verify_package.py": {
     "bytes": 1631,
     "sha256": "ffbd4e42ebb449df16fae95ec11220cba27ddaf9b41ec80d31490c6c8601e027"
-  },
-  "tests/run_sim.tcl": {
-    "bytes": 1644,
-    "sha256": "b3e1d73810e7932536acaa1d948cf415da67a26b84c66ebbe7e8c4aea9d1b4b2"
-  },
-  "tests/tb_hw2_gpio.sv": {
-    "bytes": 8253,
-    "sha256": "66438f26cd03cd3b50fa1885c349426a3847b4e256a83d84e10c2af452af011d"
   }
 }

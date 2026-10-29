@@ -1,6 +1,6 @@
-# Export matching hardware metadata and bitstream after implementation.
+# Run after Generate Bitstream completes in the recreated project.
 set root [file normalize [file join [file dirname [info script]] ..]]
-if {![llength [get_projects -quiet]]} {error "Open hardware/soc_hw2_ip.xpr first."}
+if {![llength [get_projects -quiet]]} {error "Open hardware/soc_hw2.xpr first."}
 if {[get_property PROGRESS [get_runs impl_1]] ne "100%"} {error "Generate Bitstream must finish first."}
 file mkdir $root/export $root/reports
 open_run impl_1
@@ -11,5 +11,6 @@ if {![file isfile $bit]} {error "No bitstream found. Run Generate Bitstream firs
 file copy -force $bit $root/export/design_1_wrapper.bit
 write_hwdef -force $root/export/design_1_wrapper.hwdef
 write_sysdef -force -hwdef $root/export/design_1_wrapper.hwdef -bitfile $root/export/design_1_wrapper.bit $root/export/design_1_wrapper.hdf
-puts "HW2_IP_EXPORT_OK: $root/export/design_1_wrapper.hdf"
-puts "Rebuild SDK for this HDF to refresh paired demo_ip artifacts."
+puts "HW2_EXPORT_OK: $root/export/design_1_wrapper.hdf"
+puts "For new PS initialization use ps7_init.tcl extracted into the NEW SDK hardware platform."
+puts "This export does not modify demo/ files."
