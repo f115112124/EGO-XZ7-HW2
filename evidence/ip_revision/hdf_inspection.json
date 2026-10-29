@@ -1,0 +1,42 @@
+{
+  "status": "pass",
+  "tool": "Xilinx SDK 2018.3 HSI plus direct HWH XML inspection",
+  "part": "xc7z020clg484-1",
+  "custom_ip": {
+    "instance": "hw2_gpio_ip_0",
+    "vlnv": "f115112124.org:user:hw2_gpio_ip:1.0",
+    "base_address": "0x41200000",
+    "high_address": "0x4121FFFF",
+    "range_bytes": 131072,
+    "axi_address_width_bits": 17,
+    "axi_data_width_bits": 32,
+    "led_register_base": "0x41200000",
+    "button_register_base": "0x41210000"
+  },
+  "interrupt": {
+    "port": "irq",
+    "irq_id": 61,
+    "sensitivity": "LEVEL_HIGH",
+    "connections": [
+      {
+        "INSTANCE": "processing_system7_0",
+        "PORT": "IRQ_F2P"
+      }
+    ]
+  },
+  "sdk_hardware_visibility": {
+    "custom_gpio_ip_instances": 1,
+    "axi_gpio_instances": 0,
+    "internal_gpio_children_visible": false,
+    "firmware_implication": "Use custom IP base-address MMIO and register offsets; do not depend on XPAR_AXI_GPIO_0/1_DEVICE_ID or a generated xgpio configuration table."
+  },
+  "bitstream": {
+    "embedded_file": "design_1_wrapper.bit",
+    "export_file": "export/design_1_wrapper.bit",
+    "bytes": 4045676,
+    "embedded_matches_export": true,
+    "sha256": "4c8c83e28ab0ab6bc0fcbc84d55535af8e22e7f6538cd1b6e9fb0995724313bd"
+  },
+  "hdf_sha256": "026f395d19d63f40db5774555aa433f04bc87d0bb86eff423aa6c0373ef5ace0",
+  "validation_scope": "Exported hardware metadata and bitstream consistency only. No physical board programming or hardware execution was performed."
+}

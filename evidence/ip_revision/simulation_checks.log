@@ -1,0 +1,178 @@
+CHECK_PASS: LED reset value is zero
+CHECK_PASS: IRQ reset value is low
+CHECK_PASS: AXI read OKAY at 00000000
+CHECK_PASS: R response stable under backpressure
+CHECK_PASS: R response stable under backpressure
+CHECK_PASS: R response stable under backpressure
+CHECK_PASS: LED data register reset readback
+CHECK_PASS: AXI read OKAY at 0001011c
+CHECK_PASS: R response stable under backpressure
+CHECK_PASS: R response stable under backpressure
+CHECK_PASS: R response stable under backpressure
+CHECK_PASS: GIER reset is disabled
+CHECK_PASS: AXI read OKAY at 00010128
+CHECK_PASS: R response stable under backpressure
+CHECK_PASS: R response stable under backpressure
+CHECK_PASS: R response stable under backpressure
+CHECK_PASS: IPIER reset is disabled
+CHECK_PASS: AXI write OKAY at 00000000
+CHECK_PASS: B response stable under backpressure
+CHECK_PASS: B response stable under backpressure
+CHECK_PASS: B response stable under backpressure
+CHECK_PASS: LED full-word write reaches external pins
+CHECK_PASS: AXI read OKAY at 00000000
+CHECK_PASS: R response stable under backpressure
+CHECK_PASS: R response stable under backpressure
+CHECK_PASS: R response stable under backpressure
+CHECK_PASS: LED write/readback
+CHECK_PASS: AXI write OKAY at 00000000
+CHECK_PASS: B response stable under backpressure
+CHECK_PASS: B response stable under backpressure
+CHECK_PASS: B response stable under backpressure
+CHECK_PASS: AW before W is accepted
+CHECK_PASS: AXI write OKAY at 00000000
+CHECK_PASS: B response stable under backpressure
+CHECK_PASS: B response stable under backpressure
+CHECK_PASS: B response stable under backpressure
+CHECK_PASS: W before AW is accepted
+CHECK_PASS: AXI write OKAY at 00000000
+CHECK_PASS: B response stable under backpressure
+CHECK_PASS: B response stable under backpressure
+CHECK_PASS: B response stable under backpressure
+CHECK_PASS: Vendor GPIO ignores WSTRB (full-word-only contract)
+CHECK_PASS: AXI write OKAY at 00000000
+CHECK_PASS: B response stable under backpressure
+CHECK_PASS: B response stable under backpressure
+CHECK_PASS: B response stable under backpressure
+CHECK_PASS: AXI read OKAY at 00000000
+CHECK_PASS: R response stable under backpressure
+CHECK_PASS: R response stable under backpressure
+CHECK_PASS: R response stable under backpressure
+CHECK_PASS: LED upper 24 bits read as zero
+CHECK_PASS: AXI read OKAY at 00010000
+CHECK_PASS: R response stable under backpressure
+CHECK_PASS: R response stable under backpressure
+CHECK_PASS: R response stable under backpressure
+CHECK_PASS: Five button inputs reach AXI readback
+CHECK_PASS: AXI read OKAY at 00010120
+CHECK_PASS: R response stable under backpressure
+CHECK_PASS: R response stable under backpressure
+CHECK_PASS: R response stable under backpressure
+CHECK_PASS: Button change sets status with enables off
+CHECK_PASS: Disabled IRQ stays low despite pending status
+CHECK_PASS: AXI read OKAY at 00010120
+CHECK_PASS: R response stable under backpressure
+CHECK_PASS: R response stable under backpressure
+CHECK_PASS: R response stable under backpressure
+CHECK_PASS: AXI write OKAY at 00010120
+CHECK_PASS: B response stable under backpressure
+CHECK_PASS: B response stable under backpressure
+CHECK_PASS: B response stable under backpressure
+CHECK_PASS: AXI read OKAY at 00010120
+CHECK_PASS: R response stable under backpressure
+CHECK_PASS: R response stable under backpressure
+CHECK_PASS: R response stable under backpressure
+CHECK_PASS: Read-then-TOW clears pending status
+CHECK_PASS: AXI write OKAY at 00010120
+CHECK_PASS: B response stable under backpressure
+CHECK_PASS: B response stable under backpressure
+CHECK_PASS: B response stable under backpressure
+CHECK_PASS: AXI read OKAY at 00010120
+CHECK_PASS: R response stable under backpressure
+CHECK_PASS: R response stable under backpressure
+CHECK_PASS: R response stable under backpressure
+CHECK_PASS: TOW write-one toggles status from zero to one
+CHECK_PASS: AXI write OKAY at 00010120
+CHECK_PASS: B response stable under backpressure
+CHECK_PASS: B response stable under backpressure
+CHECK_PASS: B response stable under backpressure
+CHECK_PASS: AXI read OKAY at 00010120
+CHECK_PASS: R response stable under backpressure
+CHECK_PASS: R response stable under backpressure
+CHECK_PASS: R response stable under backpressure
+CHECK_PASS: TOW write-zero preserves pending status
+CHECK_PASS: AXI read OKAY at 00010120
+CHECK_PASS: R response stable under backpressure
+CHECK_PASS: R response stable under backpressure
+CHECK_PASS: R response stable under backpressure
+CHECK_PASS: AXI write OKAY at 00010120
+CHECK_PASS: B response stable under backpressure
+CHECK_PASS: B response stable under backpressure
+CHECK_PASS: B response stable under backpressure
+CHECK_PASS: AXI write OKAY at 00010128
+CHECK_PASS: B response stable under backpressure
+CHECK_PASS: B response stable under backpressure
+CHECK_PASS: B response stable under backpressure
+CHECK_PASS: AXI write OKAY at 0001011c
+CHECK_PASS: B response stable under backpressure
+CHECK_PASS: B response stable under backpressure
+CHECK_PASS: B response stable under backpressure
+CHECK_PASS: Enables alone do not assert IRQ
+CHECK_PASS: Button release asserts enabled level IRQ
+CHECK_PASS: AXI read OKAY at 00010120
+CHECK_PASS: R response stable under backpressure
+CHECK_PASS: R response stable under backpressure
+CHECK_PASS: R response stable under backpressure
+CHECK_PASS: Release sets channel-1 status
+CHECK_PASS: AXI read OKAY at 00010120
+CHECK_PASS: R response stable under backpressure
+CHECK_PASS: R response stable under backpressure
+CHECK_PASS: R response stable under backpressure
+CHECK_PASS: AXI write OKAY at 00010120
+CHECK_PASS: B response stable under backpressure
+CHECK_PASS: B response stable under backpressure
+CHECK_PASS: B response stable under backpressure
+CHECK_PASS: Clearing pending deasserts IRQ
+CHECK_PASS: Stable held button level does not retrigger IRQ
+CHECK_PASS: New button press asserts IRQ
+CHECK_PASS: AXI write OKAY at 0001011c
+CHECK_PASS: B response stable under backpressure
+CHECK_PASS: B response stable under backpressure
+CHECK_PASS: B response stable under backpressure
+CHECK_PASS: GIER gates the interrupt output
+CHECK_PASS: AXI read OKAY at 00010120
+CHECK_PASS: R response stable under backpressure
+CHECK_PASS: R response stable under backpressure
+CHECK_PASS: R response stable under backpressure
+CHECK_PASS: Disabling GIER preserves pending status
+CHECK_PASS: AXI write OKAY at 0001011c
+CHECK_PASS: B response stable under backpressure
+CHECK_PASS: B response stable under backpressure
+CHECK_PASS: B response stable under backpressure
+CHECK_PASS: Re-enabling GIER exposes uncleared pending event
+CHECK_PASS: AXI write OKAY at 00010128
+CHECK_PASS: B response stable under backpressure
+CHECK_PASS: B response stable under backpressure
+CHECK_PASS: B response stable under backpressure
+CHECK_PASS: IPIER independently gates IRQ
+CHECK_PASS: AXI read OKAY at 00010120
+CHECK_PASS: R response stable under backpressure
+CHECK_PASS: R response stable under backpressure
+CHECK_PASS: R response stable under backpressure
+CHECK_PASS: AXI write OKAY at 00010120
+CHECK_PASS: B response stable under backpressure
+CHECK_PASS: B response stable under backpressure
+CHECK_PASS: B response stable under backpressure
+CHECK_PASS: Reset restores LEDs and IRQ
+CHECK_PASS: AXI read OKAY at 0001011c
+CHECK_PASS: R response stable under backpressure
+CHECK_PASS: R response stable under backpressure
+CHECK_PASS: R response stable under backpressure
+CHECK_PASS: Reset clears global interrupt enable
+CHECK_PASS: AXI read OKAY at 00010128
+CHECK_PASS: R response stable under backpressure
+CHECK_PASS: R response stable under backpressure
+CHECK_PASS: R response stable under backpressure
+CHECK_PASS: Reset clears channel interrupt enable
+CHECK_PASS: AXI read OKAY at 00010120
+CHECK_PASS: R response stable under backpressure
+CHECK_PASS: R response stable under backpressure
+CHECK_PASS: R response stable under backpressure
+CHECK_PASS: Reset clears interrupt status
+CHECK_PASS: AXI write OKAY at 00000000
+CHECK_PASS: B response stable under backpressure
+CHECK_PASS: B response stable under backpressure
+CHECK_PASS: B response stable under backpressure
+CHECK_PASS: AXI remains operational after reset
+GPIO_IP_SIM_PASS assertions=176
+GPIO_IP_CATALOG_REUSE_SIM_PASS: 176 assertions

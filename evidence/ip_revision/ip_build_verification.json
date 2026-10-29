@@ -1,0 +1,29 @@
+{
+  "revision": "hw2_gpio_ip 1.0",
+  "tool": "Vivado / Xilinx SDK 2018.3",
+  "part": "xc7z020clg484-1",
+  "ip_vlnv": "f115112124.org:user:hw2_gpio_ip:1.0",
+  "catalog_reuse": "pass",
+  "block_design_validate": "pass",
+  "synthesis": "pass",
+  "implementation": "pass",
+  "bitstream_generated": true,
+  "drc_violations": 0,
+  "wns_ns": 13.134,
+  "whs_ns": 0.034,
+  "configured_timing_constraints_met": true,
+  "sdk_bsp_build": "pass",
+  "sdk_application_build": "pass",
+  "functional_simulation": "pass",
+  "passed_assertions": 176,
+  "assertion_note": "Includes repeated protocol stability checks, not 176 independent functional cases.",
+  "physical_board_test_performed": false,
+  "scope": "New packaged revision compiled and simulated. Original separate-GPIO revision passed S6 physical tests; those results do not establish a physical pass for this revision.",
+  "sha256": {
+    "ip_repo/hw2_gpio_ip_1_0/component.xml": "5bdd19b9576bda457db1996bf395f4846dd8c594284704a127ac8540cf9b5036",
+    "export/design_1_wrapper.bit": "4c8c83e28ab0ab6bc0fcbc84d55535af8e22e7f6538cd1b6e9fb0995724313bd",
+    "export/design_1_wrapper.hdf": "026f395d19d63f40db5774555aa433f04bc87d0bb86eff423aa6c0373ef5ace0",
+    "demo_ip/hw2_demo.elf": "35b5e0f43d3a5d93f42ab506018c8129b2f13647a06a9087fa99a9b20df961d3",
+    "demo_ip/ps7_init.tcl": "636aedf19a17ab66d971eb84f5e8571147b2d13d7cbefccb7edd55ec6fd5d768"
+  }
+}

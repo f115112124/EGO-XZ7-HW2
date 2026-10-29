@@ -41,3 +41,8 @@ Thumbs.db
 /guide/
 /README_另一台操作.md
 /START_HERE.txt
+
+# Custom IP build workspaces
+/.ip_packaging_work/
+/tests/simulation/
+!evidence/ip_revision/*.log

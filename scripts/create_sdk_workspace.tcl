@@ -40,6 +40,13 @@ if {[catch {
         error "Build did not produce the expected ELF: $elf_file"
     }
     puts "SDK_BUILD_OK: $elf_file ([file size $elf_file] bytes)"
+    # Keep a matching, relocatable prebuilt set without copying the SDK workspace.
+    set demo_directory [file join $project_root demo_ip]
+    file mkdir $demo_directory
+    file copy -force [file join $project_root export design_1_wrapper.bit] [file join $demo_directory design_1_wrapper.bit]
+    file copy -force $elf_file [file join $demo_directory hw2_demo.elf]
+    file copy -force [file join $sdk_workspace hw_platform ps7_init.tcl] [file join $demo_directory ps7_init.tcl]
+    puts "SDK_PAIRED_DEMO_READY: $demo_directory"
 } build_error build_options]} {
     puts stderr "SDK_BUILD_FAILED: $build_error"
     if {[dict exists $build_options -errorinfo]} {
